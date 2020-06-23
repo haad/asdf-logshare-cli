@@ -14,7 +14,7 @@ install_logshare_cli() {
   local install_path=$3
 
   local bin_install_path="$install_path/bin"
-  local bin_path="${bin_install_path}/gh"
+  local bin_path="${bin_install_path}/logshare-cli"
 
   case $(uname | tr '[:upper:]' '[:lower:]') in
     linux*)
