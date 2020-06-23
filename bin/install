@@ -43,7 +43,7 @@ install_logshare_cli() {
   echo "Cleaning tmps..."
   rm -r $tmp_bin_path
 
-  echo "Run: asdf current github-cli ${version}"
+  echo "Run: asdf current logshare-cli ${version}"
   chmod +x $bin_path
 }
 
