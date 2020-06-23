@@ -18,10 +18,10 @@ install_logshare_cli() {
 
   case $(uname | tr '[:upper:]' '[:lower:]') in
     linux*)
-      local platform=linux_amd64
+      local platform=linux.amd64
       ;;
     darwin*)
-      local platform=darwin_amd64
+      local platform=darwin.amd64
       ;;
     *)
       local platform=notset
