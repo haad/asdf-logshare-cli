@@ -49,6 +49,6 @@ install_logshare_cli() {
 
 get_download_url() {
   local filename="$1"
-  echo "https://github.com/cloudflare/logshare/releases/download/v${version}/${filename}.tar.gz"
+  echo "https://github.com/cloudflare/logshare/releases/download/v${version}/${filename}"
 }
 install_logshare_cli $ASDF_INSTALL_TYPE $ASDF_INSTALL_VERSION $ASDF_INSTALL_PATH
